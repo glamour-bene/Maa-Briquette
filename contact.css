@@ -1,0 +1,226 @@
+/* contact.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+RO:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   background-color: white;
+}
+
+.title  {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Dancing Script", cursive;
+ }
+
+ a:hover {
+    text-decoration: underline;
+    text-decoration-color: skyblue;
+    color: skyblue;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    z-index: 10;    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.hero {
+    background-image: url(images/charcoal.jfif);
+    background-size: contain;
+    background-position: center;
+    height: 25vh;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.content p {
+    font-size: 24px;
+}
+
+.contact-box {
+    padding: 2rem;
+}
+
+.contact-box h2 {
+    margin-top: 0;
+}
+
+.contact-box .icon {
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.contact-box .details {
+    margin-left: 0.5rem;
+    vertical-align: middle;
+}
+
+.contact-box .details a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-box a:hover {
+    text-decoration: underline;
+    text-decoration-color: skyblue;
+    color: skyblue;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow: 10px 10px 20px #c5c5c5, -10px -10px 20px #ffffff;
+    transition: all 0.3s ease;
+    color: #555;
+    font-size: 24px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover{
+    width: 200px;
+  }
+  .wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover .icon{
+    background: #4267B2;
+  }
+  .wrapper .button:nth-child(2):hover .icon{
+    background: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3):hover .icon{
+    background: #E1306C;
+  }
+  .wrapper .button:nth-child(4):hover .icon{
+    background: #0077b5;
+  }
+  .wrapper .button:nth-child(5):hover .icon{
+    background: #25d366;
+  }
+  .wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover .icon i{
+    color: #fff;
+  }
+  .wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1) span{
+    color: #4267B2;
+  }
+  .wrapper .button:nth-child(2) span{
+    color: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3) span{
+    color: #E1306C;
+  }
+  .wrapper .button:nth-child(4) span{
+    color: #0077b5;
+  }
+  .wrapper .button:nth-child(5) span{
+    color: #25d366;
+  }
+
+  main {
+    background-image: url(images/logo.jfif);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: black;
+}

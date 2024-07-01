@@ -1,0 +1,153 @@
+/* index.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+RO:wght@100..400&display=swap');
+
+
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.title  {
+   color: white;
+   font-size: 60px;
+   font-weight: bold;
+   font-family: "Dancing Script", cursive;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: skyblue;
+    color: skyblue;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    z-index: 10;    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    color: black;
+    text-align: center;
+    padding: 2px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.image { 
+    width: 300px;
+    height: 300px;
+    margin-right: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    top: -180px;   
+    max-width: 100%;
+}
+
+.text-box {
+    max-width: 800px;
+    color: black;
+}
+
+.text-box h2 {
+    font-size: 42px;
+}
+
+.text-box h3 {
+    font-size: 25px;
+}
+
+.text-box p {
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo-container {
+    position: relative;
+    
+}
+
+.logo-image {
+    position: absolute;
+    top: -124vh;
+    right: 03vw;
+    width: 20vw;
+    height: 24vh;
+    max-width: 100%;
+  
+}
+
+.hero {
+    background-image: url(images/charcoal.jfif);
+    background-size: contain;
+    background-position: center;
+    height: 25vh;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.content p {
+    font-size: 24px;
+}
+
+.thick-line {
+    height: 3px;
+    border: none;
+    background-color: black;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
