@@ -1,2 +1,2 @@
 # Maa-Briquette
-Copmpany Website
+Company Website
